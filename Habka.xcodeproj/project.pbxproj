@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56225F992B2D983262007593 /* Pods_Habka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8463521A60ECE35A63EA03D4 /* Pods_Habka.framework */; };
+		640267381EF423F600653098 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640267371EF423F600653098 /* AppDelegate.swift */; };
+		6402673A1EF423F600653098 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640267391EF423F600653098 /* MainVC.swift */; };
+		640267421EF423F600653098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640267401EF423F600653098 /* LaunchScreen.storyboard */; };
+		6402674F1EF4C4F200653098 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6402674E1EF4C4F200653098 /* InfoVC.swift */; };
+		640267521EF4CAF800653098 /* ScaleSegueInfoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640267511EF4CAF800653098 /* ScaleSegueInfoButton.swift */; };
+		6461DFAA1EF82F71007696DA /* Cairo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6461DFA91EF82F71007696DA /* Cairo-Bold.ttf */; };
+		6461DFAC1EF82F7E007696DA /* Cairo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6461DFAB1EF82F7E007696DA /* Cairo-Regular.ttf */; };
+		64837FC81EF6B2E300DF857D /* VolumeImgVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64837FC71EF6B2E300DF857D /* VolumeImgVC.swift */; };
+		64837FCC1EF6C64D00DF857D /* mangaPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64837FCB1EF6C64D00DF857D /* mangaPages.swift */; };
+		64E96B001EF5871B00C60706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64E96AFF1EF5871B00C60706 /* Assets.xcassets */; };
+		64E96B041EF613DA00C60706 /* volumes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E96B031EF613DA00C60706 /* volumes.swift */; };
+		64E96B061EF6149300C60706 /* volumeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E96B051EF6149300C60706 /* volumeCell.swift */; };
+		64F2D8131F032C4200FEB9AC /* Contact Us.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F2D8121F032C4200FEB9AC /* Contact Us.swift */; };
+		64F680981EFF139B00C7B8EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F680961EFF139B00C7B8EB /* Main.storyboard */; };
+		64F680AD1F01244100C7B8EB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F680AC1F01244100C7B8EB /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E06F8244855F461906C6669 /* Pods-Habka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Habka.release.xcconfig"; path = "Pods/Target Support Files/Pods-Habka/Pods-Habka.release.xcconfig"; sourceTree = "<group>"; };
+		640267341EF423F600653098 /* Habka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		640267371EF423F600653098 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		640267391EF423F600653098 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		640267411EF423F600653098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		640267431EF423F600653098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6402674E1EF4C4F200653098 /* InfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
+		640267511EF4CAF800653098 /* ScaleSegueInfoButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleSegueInfoButton.swift; sourceTree = "<group>"; };
+		6443380D1F17E88A00E26861 /* Habka-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Habka-Bridging-Header.h"; sourceTree = "<group>"; };
+		6461DFA91EF82F71007696DA /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		6461DFAB1EF82F7E007696DA /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		64837FC71EF6B2E300DF857D /* VolumeImgVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeImgVC.swift; sourceTree = "<group>"; };
+		64837FCB1EF6C64D00DF857D /* mangaPages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mangaPages.swift; sourceTree = "<group>"; };
+		64E96AFF1EF5871B00C60706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64E96B031EF613DA00C60706 /* volumes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = volumes.swift; sourceTree = "<group>"; };
+		64E96B051EF6149300C60706 /* volumeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = volumeCell.swift; sourceTree = "<group>"; };
+		64F2D8121F032C4200FEB9AC /* Contact Us.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contact Us.swift"; sourceTree = "<group>"; };
+		64F680971EFF139B00C7B8EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64F680AC1F01244100C7B8EB /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8463521A60ECE35A63EA03D4 /* Pods_Habka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Habka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F142B6E32CAFDDCBA274B10 /* Pods-Habka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Habka.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Habka/Pods-Habka.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		640267311EF423F600653098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56225F992B2D983262007593 /* Pods_Habka.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6402672B1EF423F600653098 = {
+			isa = PBXGroup;
+			children = (
+				640267361EF423F600653098 /* Habka */,
+				640267351EF423F600653098 /* Products */,
+				DDA2B63132F64D6FCE4AA0F9 /* Pods */,
+				6C69C32EDF17E60AADFD192D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		640267351EF423F600653098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				640267341EF423F600653098 /* Habka.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		640267361EF423F600653098 /* Habka */ = {
+			isa = PBXGroup;
+			children = (
+				6461DFA81EF82EFF007696DA /* Font */,
+				640267491EF4242900653098 /* Model */,
+				6402674C1EF4244300653098 /* View */,
+				6402674D1EF4245300653098 /* Controller */,
+				64F680961EFF139B00C7B8EB /* Main.storyboard */,
+				640267401EF423F600653098 /* LaunchScreen.storyboard */,
+				64F680AB1F01241E00C7B8EB /* Helpers */,
+				64E96AFF1EF5871B00C60706 /* Assets.xcassets */,
+				640267431EF423F600653098 /* Info.plist */,
+				640267371EF423F600653098 /* AppDelegate.swift */,
+				6443380D1F17E88A00E26861 /* Habka-Bridging-Header.h */,
+			);
+			path = Habka;
+			sourceTree = "<group>";
+		};
+		640267491EF4242900653098 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64E96B031EF613DA00C60706 /* volumes.swift */,
+				64837FCB1EF6C64D00DF857D /* mangaPages.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6402674C1EF4244300653098 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				64E96B051EF6149300C60706 /* volumeCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6402674D1EF4245300653098 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				640267501EF4CA9500653098 /* Segue */,
+				640267391EF423F600653098 /* MainVC.swift */,
+				6402674E1EF4C4F200653098 /* InfoVC.swift */,
+				64837FC71EF6B2E300DF857D /* VolumeImgVC.swift */,
+				64F2D8121F032C4200FEB9AC /* Contact Us.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		640267501EF4CA9500653098 /* Segue */ = {
+			isa = PBXGroup;
+			children = (
+				640267511EF4CAF800653098 /* ScaleSegueInfoButton.swift */,
+			);
+			name = Segue;
+			sourceTree = "<group>";
+		};
+		6461DFA81EF82EFF007696DA /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				6461DFA91EF82F71007696DA /* Cairo-Bold.ttf */,
+				6461DFAB1EF82F7E007696DA /* Cairo-Regular.ttf */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		64F680AB1F01241E00C7B8EB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				64F680AC1F01244100C7B8EB /* Extensions.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		6C69C32EDF17E60AADFD192D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8463521A60ECE35A63EA03D4 /* Pods_Habka.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA2B63132F64D6FCE4AA0F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F142B6E32CAFDDCBA274B10 /* Pods-Habka.debug.xcconfig */,
+				4E06F8244855F461906C6669 /* Pods-Habka.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		640267331EF423F600653098 /* Habka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 640267461EF423F600653098 /* Build configuration list for PBXNativeTarget "Habka" */;
+			buildPhases = (
+				734F769591B24C189EC7534C /* [CP] Check Pods Manifest.lock */,
+				640267301EF423F600653098 /* Sources */,
+				640267311EF423F600653098 /* Frameworks */,
+				640267321EF423F600653098 /* Resources */,
+				A8A10B6328B8F03CAD482189 /* [CP] Embed Pods Frameworks */,
+				A7B25D6CCD8662B941F6D0D2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Habka;
+			productName = Habka;
+			productReference = 640267341EF423F600653098 /* Habka.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6402672C1EF423F600653098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "monir shembesh";
+				TargetAttributes = {
+					640267331EF423F600653098 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q489AJH33W;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6402672F1EF423F600653098 /* Build configuration list for PBXProject "Habka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6402672B1EF423F600653098;
+			productRefGroup = 640267351EF423F600653098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				640267331EF423F600653098 /* Habka */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		640267321EF423F600653098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6461DFAC1EF82F7E007696DA /* Cairo-Regular.ttf in Resources */,
+				64F680981EFF139B00C7B8EB /* Main.storyboard in Resources */,
+				640267421EF423F600653098 /* LaunchScreen.storyboard in Resources */,
+				6461DFAA1EF82F71007696DA /* Cairo-Bold.ttf in Resources */,
+				64E96B001EF5871B00C60706 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		734F769591B24C189EC7534C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7B25D6CCD8662B941F6D0D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Habka/Pods-Habka-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8A10B6328B8F03CAD482189 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Habka/Pods-Habka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		640267301EF423F600653098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64837FC81EF6B2E300DF857D /* VolumeImgVC.swift in Sources */,
+				6402673A1EF423F600653098 /* MainVC.swift in Sources */,
+				64E96B041EF613DA00C60706 /* volumes.swift in Sources */,
+				6402674F1EF4C4F200653098 /* InfoVC.swift in Sources */,
+				640267521EF4CAF800653098 /* ScaleSegueInfoButton.swift in Sources */,
+				64E96B061EF6149300C60706 /* volumeCell.swift in Sources */,
+				640267381EF423F600653098 /* AppDelegate.swift in Sources */,
+				64F2D8131F032C4200FEB9AC /* Contact Us.swift in Sources */,
+				64F680AD1F01244100C7B8EB /* Extensions.swift in Sources */,
+				64837FCC1EF6C64D00DF857D /* mangaPages.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		640267401EF423F600653098 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				640267411EF423F600653098 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		64F680961EFF139B00C7B8EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64F680971EFF139B00C7B8EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		640267441EF423F600653098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		640267451EF423F600653098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		640267471EF423F600653098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F142B6E32CAFDDCBA274B10 /* Pods-Habka.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = Q489AJH33W;
+				INFOPLIST_FILE = Habka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Habka.Magazine.Dev.Team;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Habka/Habka-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		640267481EF423F600653098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E06F8244855F461906C6669 /* Pods-Habka.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = Q489AJH33W;
+				INFOPLIST_FILE = Habka/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Habka.Magazine.Dev.Team;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Habka/Habka-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6402672F1EF423F600653098 /* Build configuration list for PBXProject "Habka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				640267441EF423F600653098 /* Debug */,
+				640267451EF423F600653098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		640267461EF423F600653098 /* Build configuration list for PBXNativeTarget "Habka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				640267471EF423F600653098 /* Debug */,
+				640267481EF423F600653098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6402672C1EF423F600653098 /* Project object */;
+}
