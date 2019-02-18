@@ -1,16 +1,16 @@
-#Habka Magazine
-####Habka magazine is a Libyan magazine targeted towards youth and publishing manga/comics. This application was soley built in 1 month and released on both android and IOS
+**Habka Magazine**
+Habka magazine is a Libyan magazine targeted towards youth and publishing manga/comics. This application was soley built in 1 month and released on both android and IOS
 
-#Usage
-####Due to certain circumstances, only the application code (Swift language) is available for use. The art and graphics is under a different license and thus could not be open publicly. I am currently in the process of making everything else available publicly.
+**Usage**
+Due to certain circumstances, only the application code (Swift language) is available for use. The art and graphics is under a different license and thus could not be open publicly. I am currently in the process of making everything else available publicly.
 
-#Contributing
-####Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+**Contributing**
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-####Please make sure to update tests as appropriate.
+Please make sure to update tests as appropriate.
 
-#License
-####Apache
+**License**
+Apache
 
-#Project status
-####The magazine currently is undergoing changes and looking for funding, thus, the development was paused and will be resumed accordingly.
+**Project status**
+The magazine currently is undergoing changes and looking for funding, thus, the development was paused and will be resumed accordingly.
